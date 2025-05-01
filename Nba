@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NBA 2K25 - Get Your Coins!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: url('https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/82ab9adfc781497fbb8d76f6c6c71a19.png') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #000;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .btn {
+      padding: 15px 30px;
+      background-color: #e63946;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #d62828;
+    }
+    .vc-img {
+      width: 120px;
+      margin: 20px auto;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>NBA 2K25 – Claim Your Coins!</h1>
+    <p>Complete a simple task to receive your free VC (Virtual Currency). Limited time only!</p>
+    
+    <!-- صورة العملة VC -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/NBA_2K_VC_Coin_Icon.png/600px-NBA_2K_VC_Coin_Icon.png" alt="VC Coin" class="vc-img">
+    
+    <!-- زر المهمة -->
+    <a href="https://rewardswaiting.blogspot.com/?m=1" class="btn" target="_blank">Start the Task</a>
+  </div>
+</body>
+</html>
